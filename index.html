@@ -6,7 +6,73 @@
     <title>Document</title>
 </head>
 <body>
-    <h1> I am H1</h1>
-    <h2> I am H2</h2>
+    <h1>Registration Desk</h1>
+    <style>
+        input:valid {
+            border: 2px solid green;
+        }
+    
+        input:invalid {
+            border: 5px solid red;
+        }
+     </style>
+     <form action="/web.html/">
+
+        <label for="phone">Ph Number</label>
+     <input type="number"  id=" phone"  placeholder="Enter Phone Number" pattern="[+][9][1]-\d{10}">
+     <br>
+     <br>
+     <label for="name">Name</label>
+     <input type="text" id="name" placeholder="Enter Your Name">
+     <br>
+     <br>
+     <label for="email">Email</label>
+     <input type="email" id="email" placeholder="Enter Your Email">
+     <br>
+     <br>
+     <label for="url">Enter the link</label>
+     <input type="url" id="url" placeholder="Enter your URL">
+     <br>
+     <br>
+     <label for="creditcard">Enter the creditcard</label>
+     <input type="name" id="creditcard" pattern="\d{16}" placeholder="Enter the creditcard Number">
+     <br>
+     <br>
+     <label for="date">Enter the date</label>
+     <input type="date" id="date" pattern="\d{2}-\d{2}-\d{2}">
+     <br>
+     <br>
+     <label for="Option">Select the language you know</label>
+     <select name="Option" id="Option" >
+        <option value="1">Java</option>
+        <option value="2">C++</option>
+        <option value="3">Python</option>
+     </select>
+     <br>
+     <br>
+     <fieldset>
+        <!-- border  -->
+        <legend>Do you agree to our terms and conditions</legend>
+        <input type="radio" id="yes" name="terms" checked>
+        <label for="yes">Yes</label>
+
+        <input type="radio" id="no" name="terms">
+        <label for="no">NO!</label>
+     </fieldset>
+     <br>
+     <br>
+     
+        <input type="radio" id="yes" name="terms" checked>
+        <label for="yes">Yes</label>
+
+        <input type="radio" id="no" name="terms">
+        <label for="no">NO!</label>
+     
+     
+
+     </form>
+
+    
+         
 </body>
 </html>

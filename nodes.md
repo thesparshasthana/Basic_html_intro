@@ -4,7 +4,6 @@
 
 # git Workflow
 * git init
-uhuhuhusfjjfjfmkiksmkfmkf
-`.gitignore`
-
-fneujfnnknkenntgkegkge
+* git add 
+* commit
+* push 
